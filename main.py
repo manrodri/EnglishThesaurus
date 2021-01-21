@@ -6,7 +6,7 @@ data = json.load(open("./data.json"))
 
 def print_not_word_not_found(word):
     return f'{word} is not in our dictionary. Please check the spelling or chose another word, thank you'
-
+# adding a comment
 
 def find_word(w):
     word = w.lower()
